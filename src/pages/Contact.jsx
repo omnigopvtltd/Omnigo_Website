@@ -94,16 +94,16 @@ const Contact = ({ onNavigate }) => {
               <div>
                 <h3 className="text-sm font-bold uppercase text-[#0365D4] tracking-wider mb-1">Social Media</h3>
                 <div className="flex items-center mt-4 space-x-4">
-                  <a href="https://twitter.com/omnigoapp" target="_blank" rel="noopener noreferrer" className=" text-3xl text-[#0365D4] hover:text-[#024fb8] transition-colors">
+                  <a href="https://www.instagram.com/comingsoon202697/" target="_blank" rel="noopener noreferrer" className=" text-3xl text-[#0365D4] hover:text-[#024fb8] transition-colors">
                     <FaInstagramSquare />
                   </a>
-                  <a href="https://facebook.com/omnigoapp" target="_blank" rel="noopener noreferrer" className=" text-3xl text-[#0365D4] hover:text-[#024fb8] transition-colors">
+                  <a href="https://www.facebook.com/share/1FLanHcy9g/" target="_blank" rel="noopener noreferrer" className=" text-3xl text-[#0365D4] hover:text-[#024fb8] transition-colors">
                     <FaFacebookSquare />
                   </a>
-                  <a href="https://linkedin.com/company/omnigoapp" target="_blank" rel="noopener noreferrer" className=" text-3xl text-[#0365D4] hover:text-[#024fb8] transition-colors">
+                  {/* <a href="https://linkedin.com/company/omnigoapp" target="_blank" rel="noopener noreferrer" className=" text-3xl text-[#0365D4] hover:text-[#024fb8] transition-colors">
                     <FaLinkedin />
-                  </a>
-                  <a href="https://linkedin.com/company/omnigoapp" target="_blank" rel="noopener noreferrer" className=" transition-colors">
+                  </a> */}
+                  <a href="https://www.tiktok.com/@comingsoon20265?_r=1&_t=ZS-9ADk0gUJFmZ" target="_blank" rel="noopener noreferrer" className=" transition-colors">
                   <div className="text-xl bg-[#0365D4] bg-[#024fb8] p-1 text-white rounded-sm transition-colors">
                     <SiTiktok />
                   </div>
