@@ -116,3 +116,11 @@ code {
 body {
  font-family: 'GEVORA', sans-serif;
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
