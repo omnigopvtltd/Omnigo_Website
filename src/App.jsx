@@ -404,8 +404,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-&-conditions" element={<TermsAndConditions />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

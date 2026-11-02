@@ -382,7 +382,7 @@ const PrivacyPolicy = ({ onNavigate }) => {
                     <strong>Email:</strong> ceo.founder@omnigoapp.com
                   </li>
                   <li>
-                    <strong>Website:</strong> https://www.omnigoapp.com
+                    <strong>Website:</strong> https://omnigoapp.com/
                   </li>
                 </ul>
               </div>
