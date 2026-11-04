@@ -398,6 +398,41 @@ const PrivacyPolicy = ({ onNavigate }) => {
               </p>
             </section>
 
+
+            <section className="mb-6">
+  <h2 className="text-xl font-semibold text-[#111827] mb-3 border-b border-[#DCEBFF] pb-2">
+    Account Deletion & Data Retention
+  </h2>
+  <p className="text-gray-700 leading-relaxed mb-3">
+    OMNIGO respects your right to control your personal data. You can request the deletion of your account and associated personal information at any time. 
+  </p>
+  <p className="text-gray-700 leading-relaxed mb-4">
+    When you request account deletion, we will remove or anonymize your personal information, including your profile details, order history, and saved preferences, unless applicable legal or business retention requirements obligate us to retain specific records.
+  </p>
+  
+  <div className="bg-[#F4F8FF] p-4 rounded-lg border border-[#DCEBFF] my-4">
+    <h3 className="text-md font-semibold text-[#111827] mb-2">
+      How to Request Account Deletion:
+    </h3>
+    <ul className="list-disc list-inside text-gray-700 space-y-1 mb-4">
+      <li>Directly within the OMNIGO app under <span className="font-medium text-black">Settings &gt; Account &gt; Delete Account</span>.</li>
+      <li>Or by submitting an online request using our account deletion portal below.</li>
+    </ul>
+
+    {/* Direct link required by Google Play Console */}
+    <a 
+      href="/delete-account" 
+      className="inline-block bg-[#111827] hover:bg-gray-800 text-white font-medium px-4 py-2 rounded transition-colors text-sm"
+    >
+      Request Account Deletion Form &rarr;
+    </a>
+  </div>
+
+  <p className="text-xs text-gray-500 mt-2">
+    Note: Account deletion requests are processed within 30 days of submission. If you have active orders or pending wallet balances, these must be resolved before processing your request.
+  </p>
+</section>
+
           </div>
         </div>
       </main>

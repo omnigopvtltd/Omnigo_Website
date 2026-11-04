@@ -398,6 +398,7 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndCondition';
 import Contact from './pages/Contact';
+import DeleteAccount from './pages/DeleteAccount';
 
 function App() {
   return (
@@ -407,6 +408,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/delete-account" element={<DeleteAccount />} />
       </Routes>
     </Router>
   );
