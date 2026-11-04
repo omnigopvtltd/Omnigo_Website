@@ -6,6 +6,8 @@ import { FaLinkedin } from 'react-icons/fa'
 import { SiTiktok } from 'react-icons/si'
 import Footer from '../components/layout/Footer';
 
+const ApiPort = process.env.VITE_API_URL || '5000'; // Default to 5000 if not set
+
 const DeleteAccount = ({ onNavigate }) => {
   const [formData, setFormData] = useState({ appName: '', name: '', email: '', request: '' });
   const [status, setStatus] = useState({ type: '', text: '' });
@@ -27,6 +29,13 @@ const DeleteAccount = ({ onNavigate }) => {
     try {
       // Optional: Call Node.js API endpoint
       // await fetch('http://localhost:5000/api/contact', { ... })
+
+    //   Post submission by using Node.js API endpoint to handle the deletion request
+      await fetch(`${ApiPort}/api/delete-account-request`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
 
       setTimeout(() => {
         setStatus({ type: 'success', text: 'Your deletion request has been submitted successfully.' });
