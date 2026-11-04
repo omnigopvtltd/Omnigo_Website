@@ -142,9 +142,9 @@ const DeleteAccount = ({ onNavigate }) => {
                         className="w-full px-4 py-3 bg-[#EBF5FF] border border-[#DCEBFF] rounded-lg text-sm text-[#111827] focus:outline-none focus:border-[#0365D4] transition-colors"
                     >
                         <option value=""> Select App </option>
-                        <option value="user">User App</option>
-                        <option value="rider">Rider App</option>
-                        <option value="vendor">Vendor App</option>
+                        <option value="user">Omnigo </option>
+                        <option value="rider">Omnigo Rider</option>
+                        <option value="vendor">Omnigo Vendor</option>
                     </select>
                 </div>
                   
